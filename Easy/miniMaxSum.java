@@ -5,18 +5,18 @@ class Result {
        
      int minimumValue = arr.get(0); 
      int maximumValue = arr.get(0);
-     long totalSummer = 0; 
+     long totalSum = 0; 
      
      for (int storage: arr)
      {
-         totalSummer += storage;
+         totalSum += storage;
          
          if(storage< minimumValue) minimumValue = storage; 
          if (storage > maximumValue) maximumValue = storage; 
          
      }
      
-     System.out.println((totalSummer - maximumValue) +" "+ (totalSummer - minimumValue));
+     System.out.println((totalSum - maximumValue) +" "+ (totalSum - minimumValue));
    
 
     }
