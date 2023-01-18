@@ -9,11 +9,7 @@ public class Solution {
    in.close();
    //String s=???; Complete this line below
    String s = Integer.toString(n);
-   //Escrever um valor Integer N
-   // E conveter para string
-
-
-   
+ 
    if (n == Integer.parseInt(s)) {
     System.out.println("Good job");
    } else {
